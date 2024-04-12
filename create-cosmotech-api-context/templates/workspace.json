@@ -1,0 +1,20 @@
+{
+  "dedicatedEventHubAuthenticationStrategy": null,
+  "dedicatedEventHubSasKeyName": null,
+  "description": "Workspace for solution",
+  "name": "${workspace_name}",
+  "security": {
+    "accessControlList": "${acl}",
+    "default": "none"
+  },
+  "sendInputToDataWarehouse": true,
+  "sendScenarioMetadataToEventHub": false,
+  "sendScenarioRunToEventHub": true,
+  "solution": {
+    "defaultRunTemplateDataset": null,
+    "runTemplateFilter": [
+    ],
+    "solutionId": "${solution_id}"
+  },
+  "useDedicatedEventHubNamespace": false
+}

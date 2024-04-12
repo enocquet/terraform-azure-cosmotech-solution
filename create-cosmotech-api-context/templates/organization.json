@@ -1,0 +1,7 @@
+{
+    "name": "${organization_name}",
+    "security": {
+        "default": "reader",
+        "accessControlList": "${acl}"
+    }
+}
